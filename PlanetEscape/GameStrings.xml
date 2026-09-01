@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  PlanetEscape 玩家可见字符常量。
+  动态内容统一使用 {name} 占位符，便于后续接入本地化系统。
+-->
+<resources game="PlanetEscape" sourceLanguage="en">
+    <appInfo>
+        <name>Tiny Planet Escape</name>
+        <versionName>1.0</versionName>
+        <buildNumber>1</buildNumber>
+        <platform>iOS</platform>
+        <minimumOSVersion>15.0</minimumOSVersion>
+        <genre>Casual / Adventure</genre>
+        <summary>Rotate tiny planets, guide the bot past hazards, collect energy, and escape the galaxy.</summary>
+        <changlog>new version</changlog>
+    </appInfo>
+
+    <group name="common">
+        <string key="back">&lt; BACK</string>
+        <string key="home">HOME</string>
+        <string key="on">ON</string>
+        <string key="off">OFF</string>
+        <string key="locked"> (locked)</string>
+        <string key="equipped"> [EQUIPPED]</string>
+    </group>
+
+    <group name="home_menu">
+        <string key="title">TINY PLANET ESCAPE</string>
+        <string key="subtitle">Rotate the world. Guide the bot.</string>
+        <string key="play">PLAY</string>
+        <string key="endless">ENDLESS</string>
+        <string key="challenge">CHALLENGE</string>
+        <string key="planets">PLANETS</string>
+        <string key="collection">COLLECTION</string>
+        <string key="settings">SETTINGS</string>
+        <string key="profile">PROFILE</string>
+    </group>
+
+    <group name="pause_menu">
+        <string key="title">PAUSED</string>
+        <string key="resume">RESUME</string>
+        <string key="restart">RESTART</string>
+    </group>
+
+    <group name="gameplay_hud">
+        <string key="pause_symbol">II</string>
+        <string key="danger_warning">⚠ DANGER AHEAD</string>
+        <string key="energy">ENERGY {percent}%</string>
+        <string key="distance">DISTANCE {distance}m</string>
+        <string key="level">LEVEL {level}</strin>
+        <string key="level_with_chapter">LEVEL {level} · {chapter}</string>
+    </group>
+
+    <group name="tutorial">
+        <string key="swipe_gesture">SWIPE LEFT / RIGHT</string>
+        <string key="swipe_description">Rotate the planet</string>
+        <string key="double_tap_gesture">DOUBLE TAP</string>
+        <string key="double_tap_description">Quick rotation burst</string>
+        <string key="long_press_gesture">LONG PRESS</string>
+        <string key="long_press_description">Slow observation spin</string>
+        <string key="begin">TAP TO BEGIN</string>
+    </group>
+
+    <group name="planet_select">
+        <string key="chapter_header">CH.{chapter} {title}</string>
+        <string key="level_number">{level}</string>
+    </group>
+
+    <group name="challenge_select">
+        <string key="title">CHALLENGE MODE</string>
+        <string key="speed_run_name">SPEED RUN</string>
+        <string key="speed_run_subtitle">Escape within 30 seconds</string>
+        <string key="no_hit_run_name">NO HIT RUN</string>
+        <string key="no_hit_run_subtitle">Zero hazard collisions allowed</string>
+        <string key="five_spins_name">FIVE SPINS</string>
+        <string key="five_spins_subtitle">Only 5 rotations permitted</string>
+    </group>
+
+    <group name="collection">
+        <string key="achievements_link">ACHIEVEMENTS &gt;</string>
+        <string key="bot_skins">BOT SKINS</string>
+        <string key="planet_colorways">PLANET COLORWAYS</string>
+        <string key="trail_effects">TRAIL EFFECTS</string>
+    </group>
+
+    <group name="unlockable_items">
+        <string key="skin_default">Classic Bot</string>
+        <string key="skin_chrome">Chrome Bot</string>
+        <string key="skin_gold">Gold Bot</string>
+        <string key="planet_default">Verdant</string>
+        <string key="planet_crimson">Crimson</string>
+        <string key="planet_azure">Azure</string>
+        <string key="trail_none">No Trail</string>
+        <string key="trail_spark">Spark Trail</string>
+        <string key="trail_comet">Comet Trail</string>
+    </group>
+
+    <group name="achievements">
+        <string key="title">ACHIEVEMENTS</string>
+        <achievement id="first_escape">
+            <title>First Escape</title>
+            <description>Complete your first level.</description>
+        </achievement>
+        <achievement id="chapter_one_clear">
+            <title>Forest Cleared</title>
+            <description>Reach Chapter 2.</description>
+        </achievement>
+        <achievement id="halfway_there">
+            <title>Halfway There</title>
+            <description>Reach level 60.</description>
+        </achievement>
+        <achievement id="galaxy_escape">
+            <title>Galaxy Escape</title>
+            <description>Complete all 120 levels.</description>
+        </achievement>
+        <achievement id="energy_hoarder">
+            <title>Energy Hoarder</title>
+            <description>Collect 1000 total energy.</description>
+        </achievement>
+        <achievement id="endless_wanderer">
+            <title>Endless Wanderer</title>
+            <description>Reach 500m in Endless Mode.</description>
+        </achievement>
+        <string key="unlocked_title">✓ {title}</string>
+        <string key="locked_title">○ {title}</string>
+    </group>
+
+    <group name="player_profile">
+        <string key="title">EXPLORER PROFILE</string>
+        <string key="levels_cleared">Levels Cleared: {cleared} / 120</string>
+        <string key="total_energy">Total Energy Collected: {energy}</string>
+        <string key="best_endless_distance">Best Endless Distance: {distance}m</string>
+        <string key="achievements_unlocked">Achievements Unlocked: {unlocked} / {total}</string>
+        <string key="fastest_level_clear">Fastest Level Clear: {seconds}s</string>
+    </group>
+
+    <group name="settings">
+        <string key="sound_effects">Sound Effects: {state}</string>
+        <string key="music">Music: {state}</string>
+        <string key="haptics">Haptics: {state}</string>
+        <string key="rotation_sensitivity">Rotation Sensitivity: {value}x</string>
+        <string key="decrease">[ - ]</string>
+        <string key="increase">[ + ]</string>
+    </group>
+
+    <group name="level_result">
+        <string key="retry">RETRY</string>
+        <string key="next">NEXT</string>
+        <string key="complete_title">LEVEL {level} COMPLETE</string>
+        <string key="failed_title">LEVEL {level} FAILED</string>
+        <string key="stats">TIME {seconds}s   ENERGY +{energy}</string>
+        <string key="hazard_collision">Hit a hazard</string>
+        <string key="black_hole_consumed">Pulled into a black hole</string>
+        <string key="energy_exhausted">Energy exhausted</string>
+        <string key="time_expired">Time expired</string>
+    </group>
+
+    <group name="chapters">
+        <string key="chapter_1">Green Planet</string>
+        <string key="chapter_2">Volcano Planet</string>
+        <string key="chapter_3">Dark Planet</string>
+        <string key="chapter_4">Ice Planet</string>
+        <string key="chapter_5">Space Core</string>
+        <string key="chapter_6">Galaxy Escape</string>
+    </group>
+</resources>

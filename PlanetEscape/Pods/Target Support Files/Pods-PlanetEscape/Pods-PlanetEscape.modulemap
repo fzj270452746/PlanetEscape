@@ -1,0 +1,6 @@
+framework module Pods_PlanetEscape {
+  umbrella header "Pods-PlanetEscape-umbrella.h"
+
+  export *
+  module * { export * }
+}

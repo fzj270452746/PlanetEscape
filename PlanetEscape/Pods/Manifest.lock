@@ -1,0 +1,30 @@
+PODS:
+  - Adjust (5.7.0):
+    - Adjust/Adjust (= 5.7.0)
+  - Adjust/Adjust (5.7.0):
+    - AdjustSignature (= 3.67.0)
+  - AdjustSignature (3.67.0)
+  - ReachabilitySwift (5.2.4)
+  - SnapKit (5.7.1)
+
+DEPENDENCIES:
+  - Adjust
+  - ReachabilitySwift
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Adjust
+    - AdjustSignature
+    - ReachabilitySwift
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Adjust: 3fbf26d0880cb25d15653d68278c0c8771718458
+  AdjustSignature: 9498705a4ac67b719e31828be4d74fbb8656950c
+  ReachabilitySwift: 32793e867593cfc1177f5d16491e3a197d2fccda
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+
+PODFILE CHECKSUM: a5493df0ad24b685eeb23713183dd538d0f8ee27
+
+COCOAPODS: 1.16.2

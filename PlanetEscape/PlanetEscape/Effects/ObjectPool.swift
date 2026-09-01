@@ -20,6 +20,9 @@ final class ObjectPool<T> {
         self.reset = reset
     }
 
+    @_optimize(none)
+    deinit {}
+
     func acquire() -> T {
         if let existing = available.popLast() {
             return existing
